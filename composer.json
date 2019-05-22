@@ -1,0 +1,33 @@
+{
+    "name": "Lablnet/arrays",
+    "description": "PHP array class to manipulate arrays in efficient ways to solve real world problems.",
+    "keywords": ["framework", "zest"],
+    "license": "MIT",
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    },
+    "authors": [
+        {
+            "name": "Malik Umer Farooq",
+            "email":"lablnet01@gmail.com",
+            "homepage": "https://softhub99.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+             "Lablnet\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "Tests/"
+        }
+    },
+    "config":{
+        "optimize-autoloader":true
+    },
+    "prefer-stable": true
+}

@@ -1,0 +1,25 @@
+# Required to run your project under the correct environment.
+language: php
+
+env:
+  - PACKAGE_VERSION="3.0.0"
+  - CODECOV_TOKEN="d50c0ae4-de73-4b6e-8e92-35a4c81cfa87"
+
+# Versions of PHP you want your project run with.
+php:
+  - 7.2
+  - 7.3
+
+# Commands to be run before your environment runs.
+before_script:
+- "composer install"
+
+script:
+- vendor/bin/phpunit
+
+after_success:
+    - bash <(curl -s https://codecov.io/bash)
+
+# Customize when the notification emails are sent.
+notifications:
+ email: lablnet01@gmail.com
