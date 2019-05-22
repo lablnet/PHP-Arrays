@@ -1,5 +1,5 @@
 {
-    "name": "Lablnet/arrays",
+    "name": "lablnet/arrays",
     "description": "PHP array class to manipulate arrays in efficient ways to solve real world problems.",
     "keywords": ["framework", "zest"],
     "license": "MIT",
