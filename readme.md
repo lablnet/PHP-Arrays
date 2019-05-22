@@ -62,7 +62,7 @@ Installing this package is very simple, first ensure you have the right PHP vers
         var_dump(Arrays::getType(['a' => ['b' => 'c']]));   //multi
         ```
 
-  6. Add an element to an array using "operation" notation if it doesn't exist.
+6. Add an element to an array using "operation" notation if it doesn't exist.
     - Example:   
     - ```php
         use Lablnet\Arrays;
@@ -104,7 +104,7 @@ Installing this package is very simple, first ensure you have the right PHP vers
        ``` 
 
 
- 10. Determine if an item or items exist in an array using 'Operator' notation.
+10. Determine if an item or items exist in an array using 'Operator' notation.
     - Example:
     - ```php
         use Lablnet\Arrays;
@@ -114,7 +114,7 @@ Installing this package is very simple, first ensure you have the right PHP vers
         // ['name' => 'Desk', 'price' => 100]
        ``` 
 
- 11. Converted a multi-dimensional associative array with `dot`.
+11. Converted a multi-dimensional associative array with `dot`.
     - Example:
     - ```php
         use Lablnet\Arrays;
@@ -124,7 +124,7 @@ Installing this package is very simple, first ensure you have the right PHP vers
 		// ['products.desk.price' => 100]
        ``` 
 
- 12. Converted a multi-dimensional associative array with `operator`.
+12. Converted a multi-dimensional associative array with `operator`.
     - Example:
     - ```php
         use Lablnet\Arrays;
@@ -134,7 +134,7 @@ Installing this package is very simple, first ensure you have the right PHP vers
 		// ['products.desk.price' => 100]
        ``` 
 
- 13. Push an item onto the beginning of an array.
+13. Push an item onto the beginning of an array.
     - Example:
     - ```php
         use Lablnet\Arrays;
@@ -144,7 +144,7 @@ Installing this package is very simple, first ensure you have the right PHP vers
         // ['yellow', 'red', 'green', 'blue'];
        ``` 
 
- 14. Push an item to the end of array.
+14. Push an item to the end of array.
     - Example:
     - ```php
         use Lablnet\Arrays;
@@ -154,7 +154,7 @@ Installing this package is very simple, first ensure you have the right PHP vers
         // ['red', 'green', 'blue', 'yellow'];
        ``` 
 
- 15. Get the unique elements from arrays.
+15. Get the unique elements from arrays.
     - Example:
     - ```php
         use Lablnet\Arrays;
@@ -164,7 +164,7 @@ Installing this package is very simple, first ensure you have the right PHP vers
         // ['red', green', 'blue'];
        ``` 
 
- 16. Get a subset of the items from the given array.
+16. Get a subset of the items from the given array.
     - Example:
     - ```php
         use Lablnet\Arrays;
@@ -191,7 +191,7 @@ Installing this package is very simple, first ensure you have the right PHP vers
         // [];
        ``` 
 
- 17. Remove one or many array items from a given array using "operator" notation.
+17. Remove one or many array items from a given array using "operator" notation.
     - Example:
     - ```php
         use Lablnet\Arrays;
@@ -199,11 +199,11 @@ Installing this package is very simple, first ensure you have the right PHP vers
 		$array = ['products' => ['desk' => ['price' => 100]]];
 		Arrays::forget($array, 'products.desk');
 		// ['products' => []]
-    ```
+		```
 
- 18. Get all of the given array except for a specified array of keys.
-   - Example:
-    - ```php
+18. Get all of the given array except for a specified array of keys.
+    - Example:
+     - ```php
         use Lablnet\Arrays;
         require '../vendor/autoload.php';
 		$array = ['name' => 'Desk', 'price' => 100]
@@ -211,7 +211,7 @@ Installing this package is very simple, first ensure you have the right PHP vers
 		// ['name' => 'Desk']
 		```
 
- 19. Get a value from the array, and remove it.
+19. Get a value from the array, and remove it.
      - Example:
      - ```php
         use Lablnet\Arrays;
@@ -221,7 +221,7 @@ Installing this package is very simple, first ensure you have the right PHP vers
 		// $array: ['price' => 100]
 		```
 
- 20. Changes the case of all keys in an array.
+20. Changes the case of all keys in an array.
      - Example:
      - ```php
         use Lablnet\Arrays;
@@ -241,7 +241,7 @@ Installing this package is very simple, first ensure you have the right PHP vers
         // ['name' => 'ALEX']
         ```
 
- 22. Remove duplicate values from array.
+22. Remove duplicate values from array.
      - Example:
      - ```php
         use Lablnet\Arrays;
