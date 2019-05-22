@@ -1,6 +1,10 @@
 
 ***Note** This package is a part of ZEST Franewrk ([https://github.com/zestframework/Zest_Framework/blob/master/src/Data/Arrays.php](https://github.com/zestframework/Zest_Framework/blob/master/src/Data/Arrays.php)), may thanks to [@peter](https://github.com/peter279k)*
+
+NO PR WILL BE ACCPETED HERE
+
 A class to manipulate arrays in efficient ways to solve real world problems.
+
 
 ## Requirement
 
